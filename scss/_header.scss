@@ -1,6 +1,7 @@
 header{
     background-image: url("../img/bg-hero-desktop.svg");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -11,12 +12,13 @@ header{
 
     button{
         border-radius: 30px;
-        width: 20%;
-        height: 30px;
+        width: 12%;
+        height: 44px;
+        font-size: 1.4rem;
         font-weight: bold;
         border:transparent;
         background-color: white;
-        box-shadow: 1px 1px 1px 1px;
+        box-shadow: 1px 1px 1px 1px grey;
     }
 
 }
@@ -31,6 +33,7 @@ header{
     gap:20px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 5%;
 
     img{
         width: 100%;
@@ -43,10 +46,12 @@ header{
 .flex_child{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
+    width: 28%;
     gap: 20px;
     
     h2{
-        font-size: 2.4rem;
+        font-size: 3rem;
         width: 68%;
         text-align: center;
         padding-left: 3rem;
@@ -54,8 +59,9 @@ header{
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: bold;
+        text-align: justify;
         width: 90%;
         margin-left: 3rem;
     }
@@ -63,14 +69,18 @@ header{
     button{
         border-radius: 30px;
         width: 43%;
-        height: 33px;
+        height: 40px;
         background-color: rgb(246, 132, 217);
         color: white;
-        font-size: 1rem;
-        font-weight: bold;
+        font-size: 1.3rem;
         border:transparent;
         cursor: pointer;
         margin-left: 3rem;
     }
 
+
+    button:hover{
+        color: black;
+        border:0px solid black;
+    }
 }

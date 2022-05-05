@@ -10,9 +10,11 @@
 
 .box{
     display: flex;
-    border: 2px solid grey;
+    border: 1px solid grey;
     margin: 0 10%;
-    border-radius: 16px;
+    border-radius: 13px;
+    box-shadow: 1px 1px 3px 1.5px grey;
+    width: 78%;
 
     img{
         width: 35%;
@@ -28,13 +30,14 @@
     h2{
         text-align: start;
         padding-left: 10%;
+        font-size: 3rem;
     }
 
     p{
         padding-left: 10%;
         text-align: justify;
         width: 78%;
-        font-size: 1.5rem ;
+        font-size: 1.5em ;
         color: $color-letra;
     }
 }
