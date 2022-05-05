@@ -124,4 +124,75 @@ header {
   color: grey;
 }
 
+.box-relative {
+  border-radius: 13px;
+  box-shadow: 1px 1px 3px 1.5px grey;
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  position: absolute;
+  left: 32%;
+}
+
+footer {
+  background-color: rgb(66, 67, 77);
+  color: white;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  margin: 0 5%;
+}
+.footer_container nav ul {
+  display: flex;
+  gap: 70px;
+}
+.footer_container nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+}
+.link :hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+.contacto p {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.redes {
+  display: flex;
+  gap: 15px;
+}
+.redes a {
+  text-decoration: none;
+}
+.redes a i {
+  font-size: 4rem;
+  color: white;
+}
+
+i:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */

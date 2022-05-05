@@ -41,3 +41,13 @@
         color: $color-letra;
     }
 }
+
+.box-relative{
+    border-radius: 13px;
+    box-shadow: 1px 1px 3px 1.5px grey;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    left: 32%;
+}

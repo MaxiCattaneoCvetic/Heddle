@@ -1,0 +1,72 @@
+footer{
+    background-color: rgb(66, 67, 77);
+    color: white;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    margin: 0 5%;
+    
+    nav{    
+        ul{
+            display: flex;
+            gap: 70px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+    :hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    p{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    
+}
+
+
+
+
+
+.redes{
+    display: flex;
+    gap:15px;
+    a{
+        text-decoration: none;
+
+        i{
+            font-size: 4rem;
+            color: white;
+        }
+    }
+}
+
+i:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
