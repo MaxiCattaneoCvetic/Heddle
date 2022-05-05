@@ -1,0 +1,40 @@
+.main__containter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
+}
+
+.box{
+    display: flex;
+    border: 2px solid grey;
+    margin: 0 10%;
+    border-radius: 16px;
+
+    img{
+        width: 35%;
+    }
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+
+    h2{
+        text-align: start;
+        padding-left: 10%;
+    }
+
+    p{
+        padding-left: 10%;
+        text-align: justify;
+        width: 78%;
+        font-size: 1.5rem ;
+        color: $color-letra;
+    }
+}

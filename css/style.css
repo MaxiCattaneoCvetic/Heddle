@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url("../img/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.pre_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+}
+.pre_header button {
+  border-radius: 30px;
+  width: 20%;
+  height: 30px;
+  font-weight: bold;
+  border: transparent;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.b-header:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.flex_header_contain {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex_header_contain img {
+  width: 100%;
+  height: 100%;
+  padding: 8rem;
+}
+
+.flex_child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flex_child h2 {
+  font-size: 2.4rem;
+  width: 68%;
+  text-align: center;
+  padding-left: 3rem;
+}
+.flex_child p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 90%;
+  margin-left: 3rem;
+}
+.flex_child button {
+  border-radius: 30px;
+  width: 43%;
+  height: 33px;
+  background-color: rgb(246, 132, 217);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: transparent;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.main__containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.box {
+  display: flex;
+  border: 2px solid grey;
+  margin: 0 10%;
+  border-radius: 16px;
+}
+.box img {
+  width: 35%;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.text-area h2 {
+  text-align: start;
+  padding-left: 10%;
+}
+.text-area p {
+  padding-left: 10%;
+  text-align: justify;
+  width: 78%;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
