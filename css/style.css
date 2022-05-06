@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
 }
 
 header {
@@ -63,7 +65,6 @@ header {
 }
 .flex_child p {
   font-size: 1.5rem;
-  font-weight: bold;
   text-align: justify;
   width: 90%;
   margin-left: 3rem;
