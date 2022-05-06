@@ -2,6 +2,7 @@ footer{
     background-color: rgb(66, 67, 77);
     color: white;
     margin-top: 10%;
+
 }
 
 .footer_container{
@@ -43,15 +44,7 @@ footer{
     flex-direction: column;
     gap: 15px;
     color: white;
-    p{
-        font-size: 2rem;
-        text-align: justify;
-    }
-    
 }
-
-
-
 
 
 .redes{
@@ -71,3 +64,16 @@ i:hover{
     text-decoration: underline;
     font-weight: bold;
 } 
+
+.location{
+    text-align: justify;
+    display: flex;    
+    margin-top: 3%;
+    i{
+        font-size: 2rem;
+    }
+    p{
+        margin-left: 1%;
+        font-size: 1.2rem;
+    }
+}

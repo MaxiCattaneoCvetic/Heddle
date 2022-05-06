@@ -194,10 +194,6 @@ footer {
   gap: 15px;
   color: white;
 }
-.contacto p {
-  font-size: 2rem;
-  text-align: justify;
-}
 
 .redes {
   display: flex;
@@ -214,6 +210,19 @@ footer {
 i:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.location {
+  text-align: justify;
+  display: flex;
+  margin-top: 3%;
+}
+.location i {
+  font-size: 2rem;
+}
+.location p {
+  margin-left: 1%;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
