@@ -2,6 +2,7 @@ footer{
     background-color: rgb(66, 67, 77);
     color: white;
     margin-top: 10%;
+    padding-top: 5%;
 
 }
 
@@ -44,7 +45,12 @@ footer{
     flex-direction: column;
     gap: 15px;
     color: white;
+    width: 10%;
+    p{
+        font-size: 1.2rem;
+    }
 }
+
 
 
 .redes{
@@ -65,15 +71,24 @@ i:hover{
     font-weight: bold;
 } 
 
-.location{
-    text-align: justify;
-    display: flex;    
-    margin-top: 3%;
+
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 15%;
+
     i{
-        font-size: 2rem;
+        font-size: 1.4rem;
+        display: flex;
+        gap:15px;
     }
-    p{
-        margin-left: 1%;
-        font-size: 1.2rem;
-    }
+
+}
+
+
+.logo{
+    position: absolute;
+    margin-bottom: 13%;
 }
